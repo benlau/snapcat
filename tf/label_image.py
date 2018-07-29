@@ -151,8 +151,7 @@ if __name__ == "__main__":
   def getter(object, attr):
     try:
      return object[attr]
-    except e:
-     print(e)
+    except:
      return 0
   #sys.stdout = old_stdout
   for i in top_k:
